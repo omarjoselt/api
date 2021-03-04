@@ -3,7 +3,7 @@
     "titulo": "string",
     "contenido": "string",
     "destinatarios": "Destinatario[]",
-    "fecha": "date",
+    "fecha": "date"
   },
   "Destinatario": {
     "nombre": "string",
