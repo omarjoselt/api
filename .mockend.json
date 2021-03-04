@@ -1,13 +1,12 @@
 {
-  "Post": {
-    "title": "string",
-    "views": "int",
-    "published": "boolean",
-    "createdAt": "date",
-    "comments": "Comment[]"
+  "Mensaje": {
+    "titulo": "string",
+    "contenido": "string",
+    "destinatarios": "Destinatario[]",
+    "fecha": "date",
   },
-  "Comment": {
-    "body": "string",
-    "post": "Post"
+  "Destinatario": {
+    "nombre": "string",
+    "mensaje": "Mensaje"
   }
 }
